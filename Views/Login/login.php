@@ -43,7 +43,7 @@
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Bienvenido!</h1>
                                     </div>
-                                    <form class="user">
+                                    <form class="user" action="" id="formLogin" name="formLogin">
                                         <div class="form-group">
                                             <input type="email" class="form-control form-control-user"
                                                 id="txtEmail" aria-describedby="emailHelp"
@@ -56,8 +56,7 @@
                                         <div class="form-group">
                                             <div class="custom-control custom-checkbox small">
                                                 <input type="checkbox" class="custom-control-input" id="customCheck">
-                                                <label class="custom-control-label" for="customCheck">Remember
-                                                    Me</label>
+                                                <label class="custom-control-label" for="customCheck">Recordar Inicio de Sesión</label>
                                             </div>
                                         </div>
                                         <a href="<?= base_url(); ?>/dashboard" type="submit" class="btn btn-primary btn-user btn-block">

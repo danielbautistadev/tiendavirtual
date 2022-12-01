@@ -1,12 +1,12 @@
-.headerRegister{
+.headerRegister, .header-primary {
 	background: #4e73df;
 	color: #FFF;
 }
-.headerUpdate{
+.headerUpdate {
 	background: #ff8800;
 	color: #FFF;
 }
-.notBlock{
+.notBlock {
 	display: none;
 }
 .bg-login-capture {

@@ -20,4 +20,10 @@ const SPM = ",";
 //Simbolo de moneda
 const SMONEY = "S/. ";
 
+// Datos envio de correo
+const NOMBRE_REMITENTE = "1130544";
+const EMAIL_REMITENTE = "no-reply@senati.edu.pe";
+const NOMBRE_EMPRESA = "Dycan Technology S.A.";
+const WEB_EMPRESA = "www.dycantechnology.com";
+
 ?>

@@ -19,6 +19,7 @@
 
     <!-- Custom styles for this template-->
     <link href="<?= media(); ?>/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="<?= media(); ?>/css/bootstrap-select.min.css" rel="stylesheet">
     <link href="<?= media(); ?>/css/styles.css" rel="stylesheet">
 
     <!-- Custom styles for this page -->

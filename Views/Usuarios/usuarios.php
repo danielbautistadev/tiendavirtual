@@ -68,7 +68,7 @@ getModal("modalUsuarios",$data);
             <!-- DataTales Usuarios -->
             <div class="card shadow mb-4">
                 <div class="card-header py-3">
-                    <button type="button" onclick="openModal();" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalFormUsuarios"><i class="fas fa-plus"></i> Nuevo</button>
+                    <button type="button" onclick="openModal();" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalFormUsuario"><i class="fas fa-plus"></i> Nuevo</button>
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
@@ -86,7 +86,7 @@ getModal("modalUsuarios",$data);
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
+                                <!-- <tr>
                                     <td>1</td>
                                     <td>Erick Daniel</td>
                                     <td>Bautista Olano</td>
@@ -95,7 +95,7 @@ getModal("modalUsuarios",$data);
                                     <td>Administrador</td>
                                     <td>Activo</td>
                                     <td>permisos editar eliminar</td>
-                                </tr>
+                                </tr> -->
                             </tbody>
                         </table>
                     </div>

@@ -5,9 +5,10 @@ class Home extends Controllers {
         parent::__construct();
     }
     public function home(){
-        $data["page_tag"] = "E-Commerce - Dycan Technology";
-        $data["page_title"] = "Página principal";
-        $data["page_name"] = "home";
+        
+        $data["page_tag"] = "Tienda Virtual";
+        $data["page_title"] = "E-Commerce - Dycan Technology";
+        $data["page_name"] = "tienda_virtual";
         
         $this -> views -> getView($this,"home",$data);
         

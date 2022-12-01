@@ -44,6 +44,7 @@
     <script src="<?= media(); ?>/vendor/datatables/dataTables.bootstrap4.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.14/dist/sweetalert2.all.min.js"></script>
+    <script src="<?= media(); ?>/js/bootstrap-select.min.js"></script>
 
     <script src="<?= media(); ?>/js/<?= $data['page_functions_js'];?>"></script>
     

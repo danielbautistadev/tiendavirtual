@@ -17,6 +17,15 @@ function footerAdmin($data="") {
     require_once($view_footer);
 }
 
+function headerTienda($data="") {
+    $view_header = "Views/Templates/header_tienda.php";
+    require_once($view_header);
+}
+function footerTienda($data="") {
+    $view_footer = "Views/Templates/footer_tienda.php";
+    require_once($view_footer);
+}
+
 //Muestra información formateada
 function dep($data) {
     $format  = print_r('<pre>');
